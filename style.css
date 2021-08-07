@@ -1,0 +1,42 @@
+body{
+    display: block;
+    width: 100%;
+}
+.navtop{
+    margin: 0px;
+}
+nav ul.list-nav{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  
+    overflow: hidden;
+    background-color: chartreuse;
+}
+ul.list-nav li{
+    list-style: none;
+}
+li.item-left,li.icon-dakhota{
+    float: left;
+}
+li.item-right{
+    float: right;
+}
+ul.list-nav li a{
+    display: block;
+    float:left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    
+}
+ul.list-nav li a:hover{
+    background-color: yellow;
+}
