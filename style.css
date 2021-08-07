@@ -1,18 +1,16 @@
 body{
-    display: block;
-    width: 100%;
+    line-height: 1;
     margin: 0px;
 }
 .navtop{
+    width: 100%;
     margin: 0px;
 }
 nav ul.list-nav{
-    display: block;
-    width: 100%;
+    background-color: chartreuse;
+    overflow: hidden;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
-    background-color: chartreuse;
 }
 ul.list-nav li{
     list-style: none;
@@ -32,6 +30,7 @@ ul.list-nav li a{
     font-weight: bold;
     color: black;
     padding: 15px;
+   
     
 }
 ul.list-nav li a:hover{
@@ -48,10 +47,23 @@ ul.list-nav li.dropdown-icon{
 
 /**********************Mobile****************/
 @media screen and (max-width:500px){
-    ul.list-nav li#dropdown-icon{
-        display:block;
-    }
+
     ul.list-nav li:not(:nth-child(1),:nth-child(2)){
         display: none;
+    }
+    ul.list-nav li.dropdown-icon{
+        display:block;
+    }
+    ul.list-nav.responsive{
+       position: relative;
+    }
+    ul.list-nav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.list-nav.responsive li a{
+        display: block ;
+        text-align: left;
+        width: 100%;
     }
 }
