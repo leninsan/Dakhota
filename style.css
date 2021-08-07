@@ -1,19 +1,16 @@
 body{
     display: block;
     width: 100%;
+    margin: 0px;
 }
 .navtop{
     margin: 0px;
 }
 nav ul.list-nav{
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 0px;
     margin: 0px;
-  
     overflow: hidden;
     background-color: chartreuse;
 }
@@ -38,5 +35,23 @@ ul.list-nav li a{
     
 }
 ul.list-nav li a:hover{
-    background-color: yellow;
+    background-color: rgb(92, 145, 40);
+    color: white;
+}
+
+/*********************deployment button************************/
+
+ul.list-nav li.dropdown-icon{
+    display: none;
+    float: right;
+}
+
+/**********************Mobile****************/
+@media screen and (max-width:500px){
+    ul.list-nav li#dropdown-icon{
+        display:block;
+    }
+    ul.list-nav li:not(:nth-child(1),:nth-child(2)){
+        display: none;
+    }
 }
