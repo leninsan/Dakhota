@@ -53,6 +53,9 @@ ul.list-nav li.dropdown-icon{
     }
     ul.list-nav li.dropdown-icon{
         display:block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
     ul.list-nav.responsive{
        position: relative;
