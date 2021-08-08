@@ -1,0 +1,34 @@
+body.signin-body{
+    background-color: chartreuse;
+
+}
+
+.signin-container{
+    display: block;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.card.signin-card{
+    background-color: chocolate;
+    width: 50%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0,0,0.8);
+}
+.img{
+    display: block;
+    margin: auto;
+}
+.textbox{
+    display: block;
+    margin: auto;
+}
+
+.btn.signin-button{
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    width: 100%;
+    background-color: salmon;
+    
+}
