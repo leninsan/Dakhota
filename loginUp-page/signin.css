@@ -6,22 +6,27 @@ body.signin-body{
 .signin-container{
     display: block;
     margin-top: 15%;
-    width: 100%;
 }
 
 .card.signin-card{
     background-color: chocolate;
-    width: 50%;
     margin: auto;
+    max-width: 450px;
     box-shadow: 3px 3px 3px rgba(0, 0,0,0.8);
 }
-.img{
+img.signin-img{
     display: block;
+    margin: auto;
+    padding: 0rem 3rem 0rem;
+}
+form.signin-form{
+    width: 100%;
     margin: auto;
 }
 .textbox{
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .btn.signin-button{
@@ -30,5 +35,10 @@ body.signin-body{
     margin-top: 8px;
     width: 100%;
     background-color: salmon;
-    
+    margin-bottom: 5px;
+}
+a.create-new-account{
+    display: block;
+    text-align: center;
+    margin-top: 8px;
 }
